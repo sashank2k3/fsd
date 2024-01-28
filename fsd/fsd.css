@@ -1,0 +1,177 @@
+html {
+    background: rgba(233, 225, 225, 0.479);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 75vw;
+    background: #6fd5e659;
+    padding: 25px;
+}
+
+.container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 55, 55);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.container h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(59, 55, 55);
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.form-wrapper {
+    margin: 15px;
+    width: 100%;
+}
+
+.form {
+    width: 90%;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: Black;
+    font-size: 14px;
+}
+
+.form-item {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 80%;
+}
+
+.form-item label {
+    width: 150px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-item input {
+    margin: 5px 15px;
+    height: 22px;
+    width: 100%;
+    font-size: 13px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+
+
+.genders {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+.genders input {
+    width: 20px;
+}
+
+hr {
+    margin-top: 15px;
+    width: 80%;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.register {
+    margin: 25px;
+    background: #1e90ff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #fbfbfb;
+    border: 0;
+    cursor: pointer;
+}
+
+.register:hover {
+    color: #3a3636;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 90vw;
+        padding: 10px 5px;
+    }
+    .form-item label {
+        font-size: 10px;
+    }
+    .form-item input {
+        margin: 5px 10px;
+        font-size: 12px;
+    }
+    .genders {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .genders input {
+        width: 15px;
+    }
+    
+}
+    .register {
+        margin: 25px;
+        font-size: 15px;
+        padding: 7px 10px;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #EEEEEE;
+}
+.container{
+    text-align: center;
+}
+
+.container h2{
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+    letter-spacing: 1.2px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form select{
+    
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25);
+    cursor: pointer;
+}

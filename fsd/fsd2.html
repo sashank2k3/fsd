@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Online Student Registration Form</title>
+    <link rel="stylesheet" href="fsd.css">
+    <script defer src="fsd.js"></script>
+    <style>
+        #country {
+            font-size: 14px;
+            width: 165px; 
+            height: 45px;
+        }
+        #state {
+            font-size: 14px; 
+            width: 165px;
+            height: 45px; 
+        }
+        #city {
+            font-size: 14px; 
+            width: 165px;
+            height: 45px; 
+        }
+        #zip {
+            font-size: 14px; 
+            width: 165px; 
+            height: 45px;
+        }
+        #department {
+            font-size: 13.5px; 
+            width: 180px; 
+            height: 45px;
+        }
+    </style>
+</head>
+<body background="aes.jpeg">
+    <div class="container">
+        <h2>Student Registration Form</h2>
+        <div class="form-wrapper">
+            <form action="">
+                <div class="form-item">
+                    <label for="fullname">Student Name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+                </div>
+                <div class="form-item">
+                    <label for="username">Father's Name:</label>
+                    <input type="text" name="username" id="fathersname" placeholder="Father's Full Name" required>
+                </div>
+                <div class="form-item">
+                    <label for="username">Mother's Name:</label>
+                    <input type="text" name="username" id="mothersname" placeholder="Mother's Full Name" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="gender">Gender:</label>
+                    <div class="genders">
+                        <p>Male</p> <input type="radio" name="gender" id="gender" value="male" required>
+                        <p>Female</p> <input type="radio" name="gender" id="gender" value="female">
+                        <p>Others</p> <input type="radio" name="gender" id="gender" value="other">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="email">Date of Birth</label>
+                    <input type="date" name="DOB" id="DOB" required>
+                </div>
+                <div class="form-item">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="email@xyz.com" required>
+                </div>
+                <div class="form-item">
+                    
+                </div>
+                <div class="form-item">
+                    <label for="department">Department:</label>
+                    <select name="department" id="department">
+                        <option value="electrical">--Select Department--</option>
+                        <option value="electrical">Computer Engineering</option>
+                        <option value="electrical">Software Engineering</option>
+                        <option value="electrical">Civil Engineering</option>
+                    </select>
+                </div>
+
+                <div class="form-item">
+                    <label for="phonenumber">Tel/Mobile:</label>
+                    <input type="tel" name="phonenumber" id="phonenumber" placeholder="XXX XXX XXXX" required>
+                </div>
+                <hr>
+                <h3>Permanent Address</h3>
+                <div class="container">
+                    <form action="#">
+                        <div class="form-item">
+                            <label for="pcountry">Country:</label>
+                            <select name="" id="country">
+                                <option value="">-- Select Country --</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <label for="pstate">State:</label>
+                            <select name="" id="state">
+                                <option value="">-- Select State --</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <label for="pcity">City:</label>
+                            <select name="" id="city">
+                                <option value="">-- Select City --</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <label for="ppincode">Pincode:</label>
+                            <select name="" id="zip">
+                                <option value="">-- Select Pincode --</option>
+                            </select>
+                        </div>
+            
+                </div>
+                <hr>
+
+                
+                <div class="form-item">
+                </div>
+                <div class="form-item">
+                </div>
+            
+                </div>
+
+                <button class="register" type="submit" value= "Register" formaction  ="donedr.html">Register</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
